@@ -1,8 +1,28 @@
-# React + Vite
+The Skillset Recommmendation System is a strategic project that prioritizes trending career fields, including AI/ML, AR/VR, and Blockchain technology etc . Its primary objective is to deliver a comprehensive analysis of these industries, projecting their market size by 2030 for strategic insights.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Within each trending field, the project meticulously classifies specific job roles, such as NLP Engineer and Deep Learning Engineer within the AI category. This classification provides a nuanced perspective for a clearer understanding of the diverse roles within each domain.
 
-Currently, two official plugins are available:
+Moreover, the system offers professional guidance by recommending the essential skills necessary to thrive in each identified job role. By combining market projections, role classifications, and skill recommendations, the Skillset Recordation System serves as a powerful tool for professionals and organizations to navigate and capitalize on the dynamic landscape of emerging technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+THIS PROJECT USES :
+
+* Vite.js
+* Python
+* React.js
+
+WHAT MUST BE INSTALLED IN YOUR DEVICE:
+
+* Python
+*  Node.js
+
+STEPS FOR RUNNING THE PROJECT :
+
+* clone the repository - using the command git clone
+*  Run command -  cd skillset_recom_system
+*   Make a virtual environment in python ,
+    ```
+    python3 -m venv skill_venv
+    source skill_venv/bin/activate
+    pip install google.generativeai
+    ```
+  

@@ -18,11 +18,16 @@ WHAT MUST BE INSTALLED IN YOUR DEVICE:
 STEPS FOR RUNNING THE PROJECT :
 
 * clone the repository - using the command git clone
-*  Run command -  cd skillset_recom_system
-*   Make a virtual environment in python ,
+* Run command -
+  ```cd skillset_recom_system```
+* Make a virtual environment in python ,
     ```
     python3 -m venv skill_venv
     source skill_venv/bin/activate
     pip install google.generativeai
     ```
+* Run command - ``` npm run dev ```
+  to start the server.
+
+* If you wish to generate some output using Palm2 api , add your api_keys in the dict_json.py file inside src folder & run the command python3 dict_json.py , it will generate some output & the script written in this file will write the output to sample.json for rendering it on the website using react.js in app.jsx. 
   

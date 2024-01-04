@@ -1,0 +1,6 @@
+#if pip is not installed run the command in terminal- 
+#$ curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+# $ python get-pip.py
+
+
+google.generativeai
